@@ -152,9 +152,10 @@ img {
 .section-container-big {
     padding: 188px 0;
     background-color: #2e2f42;
-}
-.container-big {
     text-align: center;
+}
+.container {
+
 }
 
 .containerbig-title {
@@ -255,7 +256,7 @@ img {
 .team__item {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
+    max-width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
