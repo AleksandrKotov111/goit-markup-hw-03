@@ -281,12 +281,13 @@ img {
 /* ============= Team END */
 /* =========== Portfolio */
 
-.container {
+/* .container {
     padding: 32px 16px;
-}
+} */
 
 .section-portfolio .container {
     max-width: 1160px;
+    padding: 32px 16px;
 }
 
 .portfolio__title,
