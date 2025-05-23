@@ -152,9 +152,6 @@ img {
     background-color: #2e2f42;
     text-align: center;
 }
-.container {
-
-}
 
 .containerbig-title {
     max-width: 496px;
@@ -181,8 +178,6 @@ img {
     background-color: #4D5AE5;
     cursor: pointer;
     border-radius: 4px;
-    /* padding: 16px 32px; */
-    /* border: 0px; */
 }
 
 .container-big-button:hover,
@@ -280,15 +275,15 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: 434455;
+    color: #434455;
 }
 
 /* ============= Team END */
 /* =========== Portfolio */
 
 .container {
-    max-width: 1160px;
-    padding: 32px 16px;
+    max-width: 1158px;
+    padding: 32px 15px;
 }
 
 .portfolio__title,
@@ -301,10 +296,6 @@ img {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-}
-
-.portfolio__title {
-
 }
 
 .portfolio__list {
