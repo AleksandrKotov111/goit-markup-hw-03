@@ -285,9 +285,9 @@ img {
     padding: 32px 16px;
 }
 
-.section-portfolio .container {
+/* .section-portfolio .container {
     max-width: 1160px;
-}
+} */
 
 .portfolio__title,
 .team__title {
@@ -377,3 +377,8 @@ img {
     max-width: 264px;
 }
 /* ===========Footer END============ */
+
+
+#container {
+    max-width: 1160px;
+}
