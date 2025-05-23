@@ -282,8 +282,11 @@ img {
 /* =========== Portfolio */
 
 .container {
-    max-width: 1160px;
     padding: 32px 16px;
+}
+
+.section-portfolio .container {
+    max-width: 1160px;
 }
 
 .portfolio__title,
