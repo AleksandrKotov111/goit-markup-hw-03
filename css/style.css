@@ -281,14 +281,6 @@ img {
 /* ============= Team END */
 /* =========== Portfolio */
 
-/* .container {
-    padding: 32px 16px;
-} */
-
-.section-portfolio .container {
-    /* max-width: 1158px; */
-    padding: 32px 16px;
-}
 
 .portfolio__title,
 .team__title {
@@ -306,6 +298,11 @@ img {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
+}
+
+.section-portfolio .container {
+    max-width: 1158px;
+    padding: 32px 16px;
 }
 
 .portfolio__item {
