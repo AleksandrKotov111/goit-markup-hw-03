@@ -91,6 +91,7 @@ img {
 }
 
 .header__menu-item {
+    
 }
 
 .header__menu-link {
@@ -101,9 +102,7 @@ img {
     color: #2e2f42;
 }
 
-.header__menu-link:hover {
-    color: #404bbf; 
-}
+.header__menu-link:hover,
 .header__menu-link:focus {
     color: #404bbf;
 }
@@ -120,6 +119,7 @@ img {
 }
 
 .address__item-mail {
+
 }
 
 .address__link {
@@ -136,6 +136,7 @@ img {
 }
 
 .address__item-tel {
+
 }
 
 /* ======== HEADER END ======== */
@@ -305,7 +306,7 @@ img {
 }
 
 .portfolio__item {
-    max-width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio__img {
