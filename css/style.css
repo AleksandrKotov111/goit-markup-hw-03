@@ -25,10 +25,10 @@ p{
 
 a {
     text-decoration: none;
-    padding: 24px 0;
 }
 
-ul {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -76,6 +76,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo-link span {
@@ -147,10 +148,10 @@ img {
 /* =========== Container big */
 
 .section-containerbig {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 .container-big {
-    padding: 188px 0 ;
     text-align: center;
 }
 
