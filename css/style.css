@@ -39,7 +39,6 @@ img {
 }
 .container {
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -62,6 +61,7 @@ img {
 
 .header .container {
     display: flex;
+    padding: 0 15px;
 }
 
 .header__menu {
@@ -286,7 +286,7 @@ img {
 /* ============= Team END */
 /* =========== Portfolio */
 
-.section-portfolio .container {
+.container {
     max-width: 1160px;
     padding: 32px 16px;
 }
