@@ -239,7 +239,7 @@ img {
 }
 
 .section-team .container {
-    padding: 32px 16px;
+    padding: 32px 15px;
 }
 
 .team__list {
@@ -304,9 +304,9 @@ img {
     flex-wrap: wrap;
 }
 
-/* .portfolio__item {
+.portfolio__item {
     width: calc((100% - 48px) / 3)
-} */
+}
 
 .portfolio__img {
 
