@@ -213,7 +213,7 @@ img {
 }
 
 .strategy__item {
-    max-width: calc((100% - 72px) / 4);
+    max-width: calc(( 100% - 72px ) / 4);
 }
 
 .strategy__subtitle {
