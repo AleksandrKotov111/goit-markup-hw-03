@@ -14,45 +14,36 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+ul,
+ol{
     margin: 0;
     padding: 0;
 }
 
-p{
-    color: #434455;
+li {
+    list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-img {
-    display: block;
-}
 .container {
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
-.section-portfolio,
-.section-team,
-.section-strategy {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
+
+
 
 
 /* ============= HEADER =========== */
 .header {
-    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header a {
@@ -61,15 +52,17 @@ img {
 
 .header .container {
     display: flex;
-    padding: 0 15px;
+    justify-content: space-between;
 }
 
 .header__menu {
-    align-items: center;
     display: flex;
+    align-items: center;
+
 }
 
 .logo-link {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-weight: 700;
@@ -77,7 +70,6 @@ img {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .logo-link span {
@@ -86,12 +78,11 @@ img {
 
 .header__menu-list {
     display: flex;
-    align-items: center;
     gap: 40px;
+
 }
 
 .header__menu-item {
-
 }
 
 .header__menu-link {
@@ -102,15 +93,15 @@ img {
     color: #2e2f42;
 }
 
-.header__menu-link:hover,
+.header__menu-link:hover {
+    color: #404bbf; 
+}
 .header__menu-link:focus {
     color: #404bbf;
 }
 
 .address {
-    margin: 24px 0;
     font-style: normal;
-    margin-left: auto;
 }
 
 .address__list {
@@ -118,8 +109,8 @@ img {
     gap: 40px;
 }
 
-.address__item-mail {
-
+.address__item {
+    display: flex;
 }
 
 .address__link {
@@ -135,10 +126,6 @@ img {
     color: #404bbf;
 }
 
-.address__item-tel {
-
-}
-
 /* ======== HEADER END ======== */
 
 /*========= MAIN ============ */
@@ -146,30 +133,41 @@ img {
     
 }
 
+
 /* =========== Container big */
 
+
 .section-container-big {
-    padding: 188px 0;
     background-color: #2e2f42;
-    text-align: center;
+}
+
+.section-container-big .container {
+    padding: 188px 0;
+}
+
+.section-container-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-big-title {
     max-width: 496px;
+    text-align: center;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     color: #fff;
-    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .container-big-button {
-    border: none;
-    height: 56px;
-    min-width: 169px;
-    margin: 0 auto;
     display: block;
-    margin-top: 48px;
+    margin: 0 auto;
+    height: 56px;
+    border: none;
+    padding: 16px 32px;
+    align-items: center;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -178,7 +176,6 @@ img {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 .container-big-button:hover,
@@ -189,8 +186,8 @@ img {
 /* =========== Container big END */
 /* =========== Strategy */
 
-.strategy__title {
-    text-transform: capitalize;
+.section-strategy .container {
+    padding: 120px 0 88px;
 }
 
 .visually-hidden {
@@ -207,13 +204,12 @@ img {
 }
 
 .strategy__list {
-    margin-bottom: 88px;
     display: flex;
     gap: 24px;
 }
 
 .strategy__item {
-    max-width: calc(( 100% - 72px ) / 4);
+    max-width: 264px;
 }
 
 .strategy__subtitle {
@@ -234,12 +230,25 @@ img {
 /* ============= Strategy END */
 /* ============= Team */
 
+.portfolio__title,
+.team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
 .section-team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
-.section-team .container {
-    padding: 32px 16px;
+.team__title {
+
 }
 
 .team__list {
@@ -248,17 +257,17 @@ img {
 }
 
 .team__item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
-    max-width: calc((100% - 72px) / 4);
-    border-radius: 0 0 4px 4px;
+    max-width: 264px;
+
 }
 
 .team__img {
+
 }
 
 .team-profile {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .team__subtitle {
@@ -282,30 +291,18 @@ img {
 /* ============= Team END */
 /* =========== Portfolio */
 
-.section-portfolio .container {
-    padding: 32px 16px;
-}
-
-.portfolio__title,
-.team__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
+.section-portfolio {
+    padding: 120px 0px;
 }
 
 .portfolio__list {
     display: flex;
-    gap: 48px 24px;
+    gap: 24px 48px;
     flex-wrap: wrap;
 }
 
 .portfolio__item {
-    width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio__img {
@@ -313,17 +310,13 @@ img {
 }
 
 .portfolio__item-info {
+    padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 16px;
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio__subtitle {
     margin-bottom: 8px;
-    padding-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -336,22 +329,22 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 /* =========== Portfolio END */
-/*========= MAIN END ============ */
+/*========= MAIN EDN ============ */
 
 
 /* =========== Footer =========== */
 /* ===========Footer */
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     background-color: #2E2F42;
 }
 
 .footer__link{
+    display: block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-weight: 700;
@@ -359,8 +352,6 @@ img {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer__link span {
@@ -368,10 +359,11 @@ img {
 }
 
 .footer__text {
+    max-width: 264px;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
 }
+
 /* ===========Footer END============ */
