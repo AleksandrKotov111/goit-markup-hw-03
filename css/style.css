@@ -350,6 +350,7 @@ a {
 }
 
 .footer__link{
+    display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
@@ -365,7 +366,6 @@ a {
 }
 
 .footer__text {
-    display: inline-block;
     max-width: 264px;
     font-size: 16px;
     line-height: 150%;
