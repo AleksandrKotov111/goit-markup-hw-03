@@ -30,6 +30,7 @@ li {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
 }
@@ -46,6 +47,7 @@ a {
 
 
 /* ============= HEADER =========== */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -273,7 +275,7 @@ a {
 }
 
 .team-profile {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team__subtitle {
@@ -300,6 +302,12 @@ a {
 .section-portfolio {
     padding: 120px 0px;
 }
+
+.section-portfolio .container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+
 
 .portfolio__list {
     display: flex;
