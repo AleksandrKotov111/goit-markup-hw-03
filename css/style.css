@@ -275,7 +275,7 @@ a {
 }
 
 .team-profile {
-    padding: 32px 0;
+    padding: 32px 0 32px;
 }
 
 .team__subtitle {
@@ -311,7 +311,8 @@ a {
 
 .portfolio__list {
     display: flex;
-    gap: 24px 48px;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
 }
 
@@ -357,7 +358,6 @@ a {
 }
 
 .footer__link{
-    display: block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
