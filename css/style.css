@@ -373,6 +373,7 @@ a {
 }
 
 .footer__text {
+    display: inline-block;
     max-width: 264px;
     font-size: 16px;
     line-height: 150%;
