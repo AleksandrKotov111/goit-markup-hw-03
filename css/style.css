@@ -30,7 +30,6 @@ li {
 }
 
 a {
-    display: inline-block;
     text-decoration: none;
     color: inherit;
 }
@@ -144,11 +143,8 @@ a {
 
 
 .section-container-big {
-    background-color: #2e2f42;
-}
-
-.section-container-big div {
     padding: 188px 0;
+    background-color: #2e2f42;
 }
 
 .section-container-big {
@@ -195,7 +191,7 @@ a {
 /* =========== Strategy */
 
 .section-strategy .container {
-    padding: 120px 0 88px;
+    padding: 120px 0;
 }
 
 .visually-hidden {
